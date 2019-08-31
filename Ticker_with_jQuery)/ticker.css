@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.ticker {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 2em;
+    line-height: 2em;
+    width: 100%;
+    overflow: hidden;
+    /* height: 40px; */
+    /* padding: 5px; */
+}
+
+#ticker .headlines {
+    left: 100%;
+}
+
+#headlines {
+    white-space: nowrap;
+    background-color: #003390;
+    position: absolute;
+    font-size: 1.5em;
+    width: 1800px;
+}
+
+#headlines a {
+    padding-right: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#headlines a:hover {
+    color: #00FF40;
+    text-decoration: underline;
+}
